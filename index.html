@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D</title>
+    
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/styles1.css" type="text/css" /> 
+</head>
+<body>
+    
+    <div id="wrapper">
+
+        <div class="container">
+            <div class="navbar">
+                
+                <div class="logo-container">
+                    <img src="/static/img/userAsset/20230920_075338.jpg" class="logo">
+                    <div class="logo-text">riverGuard</div>
+                </div>
+                
+                <div class="nav-items">
+                    <div><a href="#projects">Services</a></div> 
+                    <div><a href="#skills">FAQs</a></div>
+                    <div><a href="#contactme">Contact us</a></div>
+                </div>
+
+            </div>
+
+            <div class="hero-section">
+
+                <div class="faded-text">DriverGuard</div>
+    
+                <div class="hero-section-left">
+                    <div class="hero-section-heading">DriverGuard</div>
+                    
+                    <div class="hero-section-heading hero-section-sub-heading">
+                      Key Features: <span class="role"></span>
+                    </div>
+    
+                    <div class="hero-section-description">
+                      "Introducing our cutting-edge DriverGuard system powered by advanced Machine Learning algorithm(computer vision). 
+                       With real-time drowsiness detection and alert system, DriverGuard is your trusted co-pilot, ensuring 
+                       you stay awake and alert on every journey. Your safety on the road is our top priority."
+                       <!-- <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FsSM9om29kQ0Vsy8S4bg4W0%2FUntitled%3Ftype%3Dwhiteboard%26node-id%3D0%253A1%26t%3DZvFIHnuYlZ7UMksY-1" allowfullscreen></iframe> -->
+                       <!-- <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://blynk.cloud/dashboard/204274/global/filter/1338041/organization/204274/devices/834305/dashboard" allowfullscreen></iframe></iframe> -->
+
+                    
+                    </div>
+                  
+                 
+                    
+                    <div class="btn-pink" id="btn">Start Detection</div>
+                      <!-- <a href="https://blynk.cloud/dashboard/190804/global/filter/1255371/organization/190804/devices/749842/dashboard " target="_blank" >  <div class="btn-pink" id="btn">Pollution Monitoring</div></a>  -->
+                
+                    <script>
+                      const startBtn = document.getElementById("btn");
+ 
+                         startBtn.addEventListener("click", () => {
+                         // Open a new tab or window when the button is clicked
+                         const newWindow = window.open('/start_detection', '_blank');
+                         if (newWindow) {
+                             newWindow.focus();
+                         } else {
+                             alert('Please allow pop-ups for this site to open a new tab/window.');
+                         }
+                         });
+ 
+ 
+                 </script>
+    
+                </div>
+    
+                <div class="hero-section-right">
+                    <div class="absolute icons icon-dots">
+                        <img src="/static/img/userAsset/dots.png" alt="" />
+                      </div>
+                      <div class="absolute icons icon-cube">
+                        <img src="/static/img/userAsset/cube.png" alt="" />
+                      </div>
+                      <div class="absolute icons icon-circle">
+                        <img src="/static/img/userAsset/circle.png" alt="" />
+                      </div>
+                      <div class="absolute icons icon-zigzag">
+                        <img src="/static/img/userAsset/zigzags.png" alt="" />
+                      </div>
+                      <div class="absolute icons icon-plus">
+                        <img src="/static/img/userAsset/plus.png" alt="" />
+                      </div>
+                      <div class="user-image">
+                        <img src="/static/img/user_image2.jpg" alt="" />
+                      </div>
+                </div>
+    
+            </div>
+        </div>
+
+        <div class="project-section" id="projects">
+            <h2 class="page-header">Services</h2>
+
+             <div class="project-container">
+                <div class="project-card" id="project1">
+                    <div class="project-number project-number-right">01</div>
+                    <div class="project-content project-content-left">
+<!-- 
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="/static/img/stack/HTML.png" alt="" />
+                            <img class="project-skill" src="/static/img/stack/CSS.png" alt="" />
+                            <img class="project-skill" src="/static/img/stack/Javascript.svg" alt="" />
+                            <img class="project-skill" src="/static/img/stack/Express.png" alt="" />
+                            <img class="project-skill" src="/static/img/stack/NextJsCircle.png" alt="" />
+                            <img class="project-skill" src="/static/img/stack/Tailwind.png" alt="" />
+                            <img class="project-skill" src="/static/img/stack/NodeJs.svg" alt="" />
+                            <img class="project-skill" src="/static/img/stack/MongoDB.svg" alt="" />
+                            <img class="project-skill" src="/static/img/stack/Redux.svg" alt="" />
+                            <img class="project-skill" src="/static/img/stack/Vercel.svg" alt="" />
+                        </div> -->
+
+                        <h2 class="project-heading">Pollution Monitoring</h2>
+
+                        <p class="project-subHeading">"Take control of your carbon footprint with DriverGuard - ensuring your vehicle's pollution levels stay well within the defined limits."
+
+                        </p>
+                        <div class="btn-grp">
+                          <a href="https://blynk.cloud/dashboard/190804/global/filter/1255371/organization/190804/devices/749842/dashboard " target="_blank" >  <div class="btn-pink btn-project" id="btn">Check levels</div></a> 
+                            <!-- <button class="btn-pink btn-project">Check levels</button> -->
+                            <!-- <a href="">
+                            <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a> -->
+                            <a href="">
+                            <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" id="project2">
+                  <div class="project-number project-number-left">02</div>
+                  <div class="project-content project-content-right">
+                    <!-- <div class="project-skill-container">
+                      <img class="project-skill" src="/static/img/stack/HTML.png" alt="" />
+                      <img class="project-skill" src="/static/img/stack/CSS.png" alt="" />
+                      <img class="project-skill" src="/static/img/stack/Javascript.svg" alt="" />
+                      <img class="project-skill" src="/static/img/stack/NextJsCircle.png" alt="" />
+                      <img class="project-skill" src="/static/img/stack/Tailwind.png" alt="" />
+                      <img class="project-skill" src="/static/img/stack/Redux.svg" alt="" />
+                      <img class="project-skill" src="/static/img/stack/Vercel.svg" alt="" />
+                    </div> -->
+                    <h2 class="project-heading"> Alcohal Monitoring</h2>
+                    <!-- <p class="project-subheading">
+                      our service allows you to confirm that your driver is steering clear of alcohol during your trip."
+                       
+                        
+                    </p>  -->
+                    
+                    <p class="project-subHeading">"Safety first with DriverGuard: Ensure your journey is alcohol-free by utilizing our cutting-edge service to check your driver's sobriety."
+
+                    </p>
+<!--                     
+                    <p class="project-subHeading">"Take control of your carbon footprint with DriverGuard - ensuring your vehicle's pollution levels stay well within the defined limits."
+
+                    </p> -->
+                    <div class="btn-group">
+                      <button class="btn-pink btn-project">Check levels</button>
+                      <!-- <a href="">
+                        <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                      </a>
+                      <a href=""> -->
+                        <i title="Live Link" class="fa-solid fa-link icon"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="project-card" id="project3">
+                  <div class="project-number project-number-right">03</div>
+                  <div class="project-content project-content-left">
+                    <!-- <div class="project-skill-container">
+                      <img class="project-skill" src="/static/img/stack/HTML.png" alt="" />
+                      <img class="project-skill" src="/static/img/stack/CSS.png" alt="" />
+                      <img class="project-skill" src="/static/img/stack/Javascript.svg" alt="" />
+                      <img class="project-skill" src="/static/img/stack/NextJsCircle.png" alt="" />
+                      <img class="project-skill" src="/static/img/stack/Tailwind.png" alt="" />
+                      <img class="project-skill" src="/static/img/stack/Vercel.svg" alt="" />
+                    </div> -->
+          
+                    <h2 class="project-heading">Live Location</h2>
+
+                    <p class="project-subHeading">"Wherever the road takes you, DriverGuard ensures your loved ones can track your live location for added peace of mind."
+
+                    </p>
+                    <!-- <video autoplay muted loop id="myVideo">
+                      <source src="/static/img/projects/TravelAnimator_1699708813726.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video> -->
+                    <div class="btn-group">
+                      <button class="btn-pink btn-project">Get Location</button>
+                      <!-- <a href="">
+                        <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                      </a> -->
+                      <a href="">
+                        <i title="Live Link" class="fa-solid fa-link icon"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+<!--           
+                <div class="project-card" id="project4">
+                  <div class="project-number project-number-left">04</div>
+                  <div class="project-content project-content-right">
+                    <div class="project-skill-container">
+                      <img class="project-skill" src="/static/img/stack/NextJsCircle.png" alt="" />
+                      <img class="project-skill" src="/static/img/stack/Tailwind.png" alt="" />
+                      <img class="project-skill" src="/static/img/stack/Vercel.svg" alt="" />
+                    </div>
+                    <h2 class="project-heading">Granit</h2>
+                    <p class="project-sub-heading">
+                      A architectural website to plan your building or home (Hebrew
+                      Language)
+                    </p>
+                    <div class="btn-group">
+                      <button class="btn-pink btn-project">Read More</button>
+                      <a href="">
+                        <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                      </a>
+                      <a href="">
+                        <i title="Live Link" class="fa-solid fa-link icon"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div> -->
+            </div> 
+
+        </div>
+        
+        <div id="skills" class="container skills-container ">
+          <div class="skill-fade-text">FAQs</div>
+
+          <div class="skill-container-left">
+            <h2 class="skill-heading">
+              <span class="caps">F</span>requently 
+              <br />
+              Asked Questions?
+            </h2>
+
+            <div class="skill-subHeading">
+              <section>
+                <!-- <h2 class="tittle">FAQs</h2> -->
+        
+                <div class="faq">
+                    <div class="question">
+                        <h3>1. What is DriverGuard?</h3>
+        
+                        <svg width="15" height="10" viewBox="0 0 42 25">
+                            <path d = "M3 3L21 21L39 3" stroke="blue" stroke-width="7" stroke-linecap="round"/>
+        
+                        </svg>
+                    </div>
+                        <div class="answer">
+                            <p>
+                                DriverGuard is a software program designed to enhance driver safety.
+                                It monitors your facial expressions and eyes to detect signs of drowsiness 
+                                while you're driving.
+         
+                            </p>
+                        </div>
+                    
+                        
+                </div>
+        
+                <div class="faq">
+                    <div class="question">
+                        <h3>2. How does DriverGuard detect drowsiness?</h3>
+        
+                        <svg width="15" height="10" viewBox="0 0 42 25">
+                            <path d = "M3 3L21 21L39 3" stroke="blue" stroke-width="7" stroke-linecap="round"/>
+        
+                        </svg>
+                    </div>
+                        <div class="answer">
+                            <p>
+                                DriverGuard uses a camera to capture your facial expressions. 
+                                It analyzes the movement and position of your eyes. If your eyes begin to close
+                                too frequently, it sounds an alarm to alert you to stay alert.
+                                
+                            </p>
+                        </div>
+                    
+                        
+                </div>
+        
+        
+                <div class="faq">
+                    <div class="question">
+                        <h3>3. What happens if DriverGuard detects drowsiness?</h3>
+        
+                        <svg width="15" height="10" viewBox="0 0 42 25">
+                            <path d = "M3 3L21 21L39 3" stroke="blue" stroke-width="7" stroke-linecap="round"/>
+        
+                        </svg>
+                    </div>
+                        <div class="answer">
+                            <p>
+                                If DriverGuard detects that you may be getting drowsy, 
+                                it triggers an alert. An alarm will sound, and you'll receive a notification.
+            
+                                
+                            </p>
+                        </div>
+                    
+                        
+                </div>
+        
+        
+                <div class="faq">
+                    <div class="question">
+                        <h3>4. How do I stop the alarm?</h3>
+        
+                        <svg width="15" height="10" viewBox="0 0 42 25">
+                            <path d = "M3 3L21 21L39 3" stroke="blue" stroke-width="7" stroke-linecap="round"/>
+        
+                        </svg>
+                    </div>
+                        <div class="answer">
+                            <p>
+                                
+                        You can stop the alarm by pressing the 'q' key on the keyboard. 
+                        This will also exit the DriverGuard program.
+                            </p>
+                        </div>
+                    
+                        
+                </div>
+        
+        
+        
+        
+                <div class="faq">
+                    <div class="question">
+                        <h3> 5. Why does DriverGuard send emails?</h3>
+          
+                        <svg width="15" height="10" viewBox="0 0 42 25">
+                            <path d = "M3 3L21 21L39 3" stroke="blue" stroke-width="7" stroke-linecap="round"/>
+          
+                        </svg>
+                    </div>
+                        <div class="answer">
+                            <p>
+                                
+                      DriverGuard sends emails to help ensure your safety. 
+                      If it detects drowsiness for an extended period or 
+                      multiple times, it will send an email to a designated 
+                      recipient to alert them that you may be sleepy.
+                            </p>
+                        </div>
+                    
+                        
+                </div>
+        
+        
+        
+        
+                <div class="faq">
+                    <div class="question">
+                        <h3> 6. What should I do if I receive a false alarm?</h3>
+            
+                        <svg width="15" height="10" viewBox="0 0 42 25">
+                            <path d = "M3 3L21 21L39 3" stroke="blue" stroke-width="7" stroke-linecap="round"/>
+            
+                        </svg>
+                    </div>
+                        <div class="answer">
+                            <p>
+                                
+                        If you receive a false alarm, it's essential to stay calm and alert. 
+                        False alarms can happen due to sudden movements or distractions.
+                        DriverGuard is designed to prioritize safety, so it's better to have occasional 
+                        false alarms than to miss a genuine drowsiness alert.
+                            </p>
+                        </div>
+                    
+                        
+                </div>
+        
+        
+        
+        
+                <div class="faq">
+                    <div class="question">
+                        <h3> 7. Is there anything else I need to know?</h3>
+              
+                        <svg width="15" height="10" viewBox="0 0 42 25">
+                            <path d = "M3 3L21 21L39 3" stroke="blue" stroke-width="7" stroke-linecap="round"/>
+              
+                        </svg>
+                    </div>
+                        <div class="answer">
+                            <p>
+                                
+                      It's essential to ensure that the camera is correctly positioned to capture your face. 
+                      Also, make sure that the required sound files and model files are present in the specified paths.
+              
+                      Remember, DriverGuard is designed to enhance your safety, so always pay attention to the road and prioritize safe driving practices.
+                            </p>
+                        </div>
+                    
+                        
+                </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+          
+          
+          
+          
+          
+          
+          
+        
+        
+        
+        
+        
+        
+        
+        
+            </section>
+            <script >
+              
+const faqs = document.querySelectorAll(".faq");
+
+faqs.forEach(faq => {
+    faq.addEventListener("click", () => {
+        if (!faq.classList.contains("active")) {
+            faqs.forEach(otherFaq => {
+                otherFaq.classList.remove('active');
+            });
+        }
+        faq.classList.toggle("active");
+    });
+});
+            </script>
+            </div>
+          </div>
+
+          <div class="skill-container-right">
+            <img src="/static/img/stack/question-mark-2309040_640 (2).jpg" class="blob-style" alt=""  />
+
+            
+             <!-- <img src="./images/stack/CSS.png" alt="" class="skills-logo" /> -->
+           
+          </div>
+        
+        
+        
+        </div> 
+
+        <div class="contactus-form-container" id="contactme">
+          <div class="container">
+
+            <h1 class="contactus-heading">Contact us</h1>
+
+            <h3 class="contactus-sub-heading">
+              <!-- Questions, thoughts, or just want to say hello? -->
+              "Have Inquiries, Feedback, or Simply Want to Connect?"
+            </h3>
+
+
+            <div class="contactus-form-container">
+              <form class="form" action="https://formspree.io/f/myyqpdra"  method="post">
+                <div class="formfield-container">
+                  <input class="formfield" 
+                  type="text" 
+                  name="name" 
+                  id="" 
+                  placeholder="Enter your name" />
+
+                  <input class="formfield" 
+                  type="email" 
+                  name="email" 
+                  id="email" 
+                  placeholder="Enter your email address" />
+
+                  <input class="formfield" 
+                  type="text" 
+                  name="subject" 
+                  id="" 
+                  placeholder="Enter your subject" />
+
+                  <textarea name="message" 
+                  id="" cols="30" rows="10" 
+                  class="formfield formfield-textarea"
+                  placeholder="Enter your message"></textarea>
+
+                </div>
+                
+                <div>
+                  <button type="submit" class="btn-pink" id="submit-btn">
+                    Send Message<i class="submit-icon fa-solid fa-paper-plane"></i>
+                  </button>
+                </div>
+
+              </form>
+
+            </div>
+
+
+          </div>
+        </div>
+
+        <footer>
+          <div class="container">
+            <div class="footer-wrapper">
+              <div class="footer-faded-text">DriverGuard</div>
+
+              <div class="link-wrapper">
+                <!-- <div>
+                  <a href="#projects">Projects</a>
+                </div> -->
+                <div>
+                  <a href="#skills">Skills</a>
+                </div>
+                <div>
+                  <a href="#contactme">Contact Me</a>
+                </div>
+              </div>
+
+              <div class="icon-wrapper">
+                <i class="fa-brands fa-linkedin icon">
+
+                </i>
+                <i class="fa-brands fa-github icon"></i>
+                <!-- <i class="fa-brands fa-X icon"></i> -->
+                
+                  <a href="https://www.instagram.com/akhilsharma167/" target="_blank">
+                    <i class="fa-brands fa-instagram icon"></i>
+                  </a>
+              
+                
+                  <a href="mailto:akhilsharma1672k@gmail.com">
+                    <i class="fa-regular fa-envelope icon"></i>
+                  </a>
+                </i>
+              </div>
+
+            </div>
+          </div>
+        </footer>
+
+    </div>
+
+    <script src="/static/js/jquery-3.5.1.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+
+  <script>
+    var typeData = new Typed(".role", {
+      strings: [
+      "Real-time Drowsiness Detection",
+        "Smart Notifications",
+        "Alert System",
+      //  "Backend Developer",
+      //   "Coder",
+      ],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 80,
+      backDelay: 1000,
+    });
+
+
+  </script>
+
+ 
+</body>
+</html>
